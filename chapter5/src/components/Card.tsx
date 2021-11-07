@@ -12,12 +12,12 @@ const style = {
 }
 
 export const Card = props => {
-    const { isAdmin, name } = props
+    const { name } = props
 
     return (
         <div style={style}>
             <h1>{name}</h1>
-            <EditButton isAdmin={isAdmin} />
+            <EditButton />
         </div>
     );
 };

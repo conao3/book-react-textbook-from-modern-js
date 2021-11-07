@@ -2,5 +2,11 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 import { App } from './App';
+import { AdminFlagProvider } from './components/providers/AdminFlagProvider';
 
-ReactDom.render(<App />, document.getElementById('root'));
+ReactDom.render(
+    <AdminFlagProvider>
+        <App />
+    </AdminFlagProvider>,
+    document.getElementById('root')
+);
