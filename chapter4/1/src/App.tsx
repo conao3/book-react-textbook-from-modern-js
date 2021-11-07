@@ -9,10 +9,10 @@ export const App = () => {
     }
 
     return (
-      <div>
+      <>
         <h1 style={{ color: "red" }}>Hello World</h1>
         <p style={contentStyle}>Hi React!</p>
         <button onClick={onClickButton}> Click me!</button>
-      </div>
+      </>
     );
   };
