@@ -8,7 +8,7 @@ export const App = () => {
     return (
       <>
         <h1 style={{ color: "red" }}>Hello World</h1>
-        <ColoredMessage color="blue" message="Hi React!" />
+        <ColoredMessage color="blue">Hi React!</ColoredMessage>
         <button onClick={onClickButton}> Click me!</button>
       </>
     );
