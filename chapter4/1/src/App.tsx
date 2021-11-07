@@ -1,17 +1,14 @@
+import { ColoredMessage } from "./components/ColoredMessage";
+
 export const App = () => {
     const onClickButton = () => {
         console.log('Button clicked');
     };
 
-    const contentStyle = {
-        color: "blue",
-        fontSize: "20px",
-    }
-
     return (
       <>
         <h1 style={{ color: "red" }}>Hello World</h1>
-        <p style={contentStyle}>Hi React!</p>
+        <ColoredMessage />
         <button onClick={onClickButton}> Click me!</button>
       </>
     );
