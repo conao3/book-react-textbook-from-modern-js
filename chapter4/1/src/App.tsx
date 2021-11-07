@@ -5,7 +5,7 @@ export const App = () => {
     const [num, setNum] = useState(0);
 
     const onClickButton = () => {
-        setNum(num + 1);
+        setNum((prev) => prev + 1);
     };
 
     return (
