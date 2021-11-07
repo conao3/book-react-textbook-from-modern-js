@@ -19,7 +19,7 @@
   - [[#author][Author]]
 
 * Description
-.
+[[./img/output.gif]]
 
 * Install
 
