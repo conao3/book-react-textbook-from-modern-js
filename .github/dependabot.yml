@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/chapter-a"
+    schedule:
+      interval: weekly
+    groups:
+      chapter-a-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: npm
+    directory: "/chapter4"
+    schedule:
+      interval: weekly
+    groups:
+      chapter4-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: npm
+    directory: "/chapter5"
+    schedule:
+      interval: weekly
+    groups:
+      chapter5-minor-patch:
+        update-types: [minor, patch]
